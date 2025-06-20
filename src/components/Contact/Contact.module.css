@@ -1,0 +1,74 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px; 
+  margin-bottom: 12px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  background-color: #f0f8ff;  
+  box-shadow: 0 2px 5px rgba(0, 123, 255, 0.15);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.contactItem:hover {
+  transform: translateY(-2px);  
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2);
+}
+
+.contactInfo {
+  display: flex;
+  flex-direction: column;  
+  gap: 8px; 
+}
+
+.contactDetailLine {  
+  display: flex;  
+  align-items: center;  
+  gap: 10px;  
+}
+
+.icon {
+  color: #007bff;  
+  font-size: 1.1em;  
+}
+
+.iconDelete {  
+  margin-right: 5px;  
+}
+
+.contactName {
+  font-weight: 600;  
+  font-size: 1.15em;  
+  color: #1a73e8;  
+  margin: 0;
+}
+
+.contactNumber {
+  color: #5f6368;  
+  font-size: 1em;
+  margin: 0;
+}
+
+.deleteButton {
+  display: flex;  
+  align-items: center;  
+  background-color: #e53935;  
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 0.9em;
+  font-weight: 500;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;  
+  transform: scale(1.05);  
+}
+
+.deleteButton:active {
+  transform: scale(0.98);  
+}
